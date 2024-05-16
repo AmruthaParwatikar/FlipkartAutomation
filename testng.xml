@@ -3,7 +3,7 @@
     <test name="MyTest">
         <classes>
             <class name="tests.CartTestPage"/>
-            
+            <class name="tests.CustomerCareTestPage"/>
             <!-- Add more test classes here -->
         </classes>
     </test>
