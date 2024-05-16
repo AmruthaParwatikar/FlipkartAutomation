@@ -9,6 +9,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 import pages.FlipkartPage;
@@ -26,7 +27,10 @@ public class FlipkartTest {
     @BeforeTest
     public void setup() {
         System.setProperty("webdriver.chrome.driver", "chromedriver/chromedriver-win64/chromedriver.exe");
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        //options.setHeadless(true);
+        options.addArguments("--remote-allow-origins=*");
+        driver = new ChromeDriver(options);
         flipkartPage = new FlipkartPage(driver);
 
         ExtentSparkReporter spark = new ExtentSparkReporter("extent.html");
