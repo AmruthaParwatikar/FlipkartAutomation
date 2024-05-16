@@ -4,6 +4,10 @@
         <classes>
             <class name="tests.CartTestPage"/>
             <class name="tests.CustomerCareTestPage"/>
+            <class name="tests.DeliveryPageTest"/>
+            <class name="tests.DetailsPageTest"/>
+            <class name="tests.FilterPageTest"/>
+            
             <!-- Add more test classes here -->
         </classes>
     </test>
