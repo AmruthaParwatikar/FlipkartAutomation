@@ -8,10 +8,11 @@
             <class name="tests.DetailsPageTest"/>
             <class name="tests.FilterPageTest"/>
             <class name="tests.FlipkartTest"/>
-            <class name="tests.GroceryTestPage"/>
             <class name="tests.HomePageTest"/>
             <class name="tests.ListPageTest"/>
             <class name="tests.LoginTestPage"/>
+            <class name="tests.NotificationTestPage"/>
+            
             
             <!-- Add more test classes here -->
         </classes>
