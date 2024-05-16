@@ -36,7 +36,7 @@ public class CartTestPage {
         //WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     	((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", cartPage.addToCartButton);
     	
-        cartPage.addToCartButton.click();
+        cartPage.addToCart();
         Thread.sleep(2000);
         
     }
