@@ -7,6 +7,7 @@ import java.time.Duration;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import org.openqa.selenium.JavascriptExecutor;
 
 import pages.CartPage;
 
